@@ -1,0 +1,35 @@
+# Build outputs
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.class
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+.vscode/
+
+# Build directories
+out/
+target/
+build/
+bin/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# JavaFX cache
+javafx*.jar
