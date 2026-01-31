@@ -71,23 +71,30 @@ Entity classes (Student, Course, Enrollment, Grade)
 
 - Dependency Inversion Principle (DIP)
 
-## ▶️ How to Run
+## ▶️ How to Run the Application (Windows)
+#### Requirements
 
-### From Source (IntelliJ):
+* JDK 21 or higher
 
-1. Clone repo  
+* Running the Application
 
-2. Open in IntelliJ
+⚠️ Do NOT double-click the JAR file
 
-3. Add JavaFX SDK to libraries
+* Clone the repository
 
-4. Run `src/view/Main.java`
+Run the application using:
 
-### If JAR Provided:
+    run.bat
 
-* Run `run.bat` (Windows) or use:
-`bash
-java --module-path "path/to/javafx/lib" --add-modules javafx.controls,javafx.fxml -jar Student-Information-Management-System.jar`
+
+The BAT file ensures JavaFX modules are correctly loaded at runtime.
+
+## 📦 Executable JAR
+
+The executable JAR file is included at the project root:
+
+    SIMS.jar
+
 
 ## 💾 Data Persistence
 
@@ -110,7 +117,7 @@ Files are automatically created on first application launch.
 
 - 📐 **UML Class Diagram (PNG)**
   
-  ![UML Class Diagram](docs/SIMS-UML-Class-Diagram.png)
+  ![UML Class Diagram](docs/SIMS-UML-Class-DIagram.jpg)
 
 ## 👥 Group Members
 
