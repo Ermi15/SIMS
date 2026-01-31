@@ -1,0 +1,4 @@
+CS101,Introduction to Programming,3
+MATH101,Calculus I,4
+ENG101,English Composition,3
+PHYS101,Physics I,4

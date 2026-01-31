@@ -1,17 +1,17 @@
 package model;
 
-public abstract class BaseEntity {
-    private String id;
+public class Course {
+    private String code;
+    private String name;
+    private int credits;
 
-    public BaseEntity(String id) {
-        this.id = id;
+    public Course(String code, String name, int credits) {
+        this.code = code;
+        this.name = name;
+        this.credits = credits;
     }
 
-    public String getId() { return id; }
-    public void setId(String id) { this.id = id; }
-
-    @Override
-    public String toString() {
-        return "ID: " + id;
-    }
+    public String getCode() { return code; }
+    public String getName() { return name; }
+    public int getCredits() { return credits; }
 }

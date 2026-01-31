@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="15" alignment="CENTER"
+      maxWidth="Infinity" maxHeight="Infinity"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="view.controller.DashboardController">
+
+    <Label fx:id="welcomeLabel" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+    <Label fx:id="roleLabel" style="-fx-font-size: 14px; -fx-text-fill: gray;"/>
+
+    <Separator prefWidth="300"/>
+
+    <!-- ADMIN SECTION (visible only to admin) -->
+    <Label text="Administration" style="-fx-font-size: 16px; -fx-font-weight: bold;"
+           visible="${manageStudentsBtn.visible}"/>
+
+    <Button fx:id="manageStudentsBtn" text="Manage Students" onAction="#handleManageStudents"
+            prefWidth="200" visible="false"/>
+    <Button fx:id="manageCoursesBtn" text="Manage Courses" onAction="#handleManageCourses"
+            prefWidth="200" visible="false"/>
+    <Button fx:id="enrollBtn" text="Manage Enrollments" onAction="#handleEnrollments"
+            prefWidth="200" visible="false"/>
+    <Button fx:id="addGradeBtn" text="Manage Grades" onAction="#handleAddGrade"
+            prefWidth="200" visible="false"/>
+
+    <Separator prefWidth="300" visible="${manageStudentsBtn.visible}"/>
+
+    <!-- VIEW SECTION (visible to all) -->
+    <Label text="View Information" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+
+    <Button fx:id="viewStudentsBtn" text="View Students" onAction="#handleViewStudents"
+            prefWidth="200" visible="false"/>
+    <Button fx:id="viewCoursesBtn" text="View Courses" onAction="#handleViewCourses"
+            prefWidth="200" visible="false"/>
+    <Button fx:id="viewGradesBtn" text="View Grades" onAction="#handleViewGrades"
+            prefWidth="200" visible="false"/>
+
+    <Separator prefWidth="300"/>
+
+    <!-- LOGOUT -->
+    <Button text="Logout" onAction="#handleLogout" prefWidth="200"
+            style="-fx-background-color: #ff4444; -fx-text-fill: white;"/>
+</VBox>
