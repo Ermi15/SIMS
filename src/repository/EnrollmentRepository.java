@@ -1,5 +1,7 @@
 package repository;
 
+import model.Enrollment;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;

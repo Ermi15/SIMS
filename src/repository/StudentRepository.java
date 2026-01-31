@@ -1,5 +1,7 @@
 package repository;
 
+import model.Student;
+
 import java.io.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
