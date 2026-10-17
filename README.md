@@ -121,17 +121,17 @@ Files are automatically created on first application launch.
 
 ## 👥 Group Members
 
-* Filipos Tesera – UGR/7799/17
+* Filipos Tesera
 
-* Hilina Getnet – UGR/4377/17
+* Hilina Getnet
 
-* Ermias Leulseged – UGR/1423/17
+* Ermias Leulseged 
 
-* Henok Assefa – UGR/9446/17
+* Henok Assefa 
 
-* Etsubdink Alemu – UGR/1344/17
+* Etsubdink Alemu 
 
-* Gelila Getabalew – UGR/2507/17
+* Gelila Getabalew 
 
 #### 📅 Submission Date
 
